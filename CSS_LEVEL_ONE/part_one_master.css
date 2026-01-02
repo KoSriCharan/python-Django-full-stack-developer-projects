@@ -1,0 +1,21 @@
+/* selected tag{
+    property:value;
+     */
+
+h1 {
+    color: purple;
+    font-size: 36px;
+    text-align: center;
+}
+
+li {
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    color: green;
+}
+
+body {
+    background-image: url('C:/personal/my_Django_stuff/background.jpg');
+    background-size: cover;
+    background-position: center;
+}
