@@ -1,0 +1,14 @@
+h1 {
+    color: purple;
+    font-size: 36px;
+    text-align: center;
+}
+
+.board button{
+    width: 100px;
+    height: 100px;
+    margin: 1px;
+    background-color: grey;
+    border: 4px solid black;
+    border-radius: 50%;
+}

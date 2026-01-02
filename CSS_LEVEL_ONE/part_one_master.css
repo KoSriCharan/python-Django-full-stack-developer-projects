@@ -15,7 +15,7 @@ li {
 }
 
 body {
-    background-image: url('C:/personal/my_Django_stuff/background.jpg');
+    background-image: url('../background.jpg');
     background-size: cover;
     background-position: center;
 }
