@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+{% load static %}
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image project</title>
+    <link rel="stylesheet"  href="{% static 'css/mystyle.css' %}">
+</head>
+<body>
+    <h1> This is the static image loading page</h1>
+    {{ insert_me }}
+    <img src="{% static 'images/background.jpg' %}" alt="Uh Oh , didn't show">
+</body>
+</html>
