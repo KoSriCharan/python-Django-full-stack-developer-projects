@@ -1,3 +1,4 @@
 full_stack_developer/
 *.tmp
 *.log
+__pycache__/
