@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+{% extends 'basic_app/base.html' %}
+{% block content %}
+    <h1>Welcome to the relative_urls_templates Page</h1>
+    <p>This is a basic template example in Django.</p>
+    <a href="{% url 'basic_app:other' %}">The Other Page</a><br>
+    <a href="/" target="_blank">The Index Page</a>
+{% endblock %}
